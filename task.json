@@ -1,0 +1,13 @@
+{
+    "id": 1,
+    "level": 1,
+    "name": "Task 1",
+    "status": "STATUS_NOT_STARTED",
+    "blocked_by": [],
+    "responsible": 201,
+    "time_limit": 60,
+    "children": [],
+    "comment": {
+      "value": "This is a comment for Task 1"
+    }
+  }

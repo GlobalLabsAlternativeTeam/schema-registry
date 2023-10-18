@@ -1,0 +1,7 @@
+{
+    "treatment_id": 12345,
+    "doctor_id": 6789,
+    "patient_id": 54321,
+    "status": "STATUS_RUNNING",
+    "schema_instance_id": 98765
+  }

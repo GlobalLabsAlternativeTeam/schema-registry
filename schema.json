@@ -1,0 +1,22 @@
+{
+    "schema_id": 123,
+    "author_id": 456,
+    "schema_name": "Sample Schema",
+    "created_at": {
+      "seconds": 1634567890,
+      "nanos": 123456789
+    },
+    "updated_at": {
+      "seconds": 1634567890,
+      "nanos": 987654321
+    },
+    "deleted_at": {
+      "seconds": 0,
+      "nanos": 0
+    },
+    "patient": 789,
+    "treatment_doctor": 101,
+    "tasks": [
+    ]
+  }
+  
