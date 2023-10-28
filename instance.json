@@ -1,5 +1,12 @@
 {
-    "instance_id": "UUID",
+    "treatmentd_id": "UUID",
+    "doctor_id": 1,
+    "patient_id":1,
+    "status": "ststus",
+    "started_at": "date",
+    "finished_at": "date",
+    "deleted_at": "date",
+    "schema_instance_id": "string",
     "schema_reference": {
       }
 }
