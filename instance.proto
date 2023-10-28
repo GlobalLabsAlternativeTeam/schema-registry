@@ -10,6 +10,9 @@ message Treatment{
     uint64 patient_id = 3;
     TreatmentStatus status = 4;
     string schema_instace_id = 5;
+    google.protobuf.Timestamp started_at = 6;
+    google.protobuf.Timestamp finished_at = 7;
+    google.protobuf.Timestamp deleted_at = 8;
 }
 
 
