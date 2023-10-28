@@ -1,5 +1,5 @@
 {
-    "treatment_id": 12345,
+    "treatment_id": "UUID",
     "doctor_id": 6789,
     "patient_id": 54321,
     "status": "STATUS_RUNNING",
