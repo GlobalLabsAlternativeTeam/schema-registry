@@ -22,7 +22,7 @@ message SchemaInstance{
 }
 
 
-enum InstanceStatus {
+enum TreatmentStatus {
     STATUS_UNSPECIFIED = 0;
     STATUS_RUNNING = 1;
     STATUS_BLOCKED = 2;
