@@ -1,7 +1,7 @@
 syntax = "proto3";
 import "google/protobuf/timestamp.proto";
-import "schema.proto";
 
+package Treatment;
 
 //Treatment
 message Treatment{
@@ -23,9 +23,9 @@ message SchemaInstance{
 
 
 enum TreatmentStatus {
-    STATUS_UNSPECIFIED = 0;
-    STATUS_RUNNING = 1;
-    STATUS_BLOCKED = 2;
-    STATUS_COMPLETED = 3;
-    STATUS_CANCELLED = 4;
+    INSTANCE_STATUS_UNSPECIFIED = 0;
+    INSTANCE_STATUS_RUNNING = 1;
+    INSTANCE_STATUS_BLOCKED = 2;
+    INSTANCE_STATUS_COMPLETED = 3;
+    INSTANCE_STATUS_CANCELLED = 4;
   }
