@@ -23,10 +23,10 @@ message Task{
     int32 level = 2; // level of the task
     string name = 3; //name aof the task
     TaskStatus status = 4; //status of the task
-    repeated int64 blocked_by = 4; // id of the task that block it
-    optional uint64 resposinble = 5; // person responsible for this task
-    optional int64 time_limit = 6; // time limit for task in minutes
-    repeated Task children = 7; // subtasks of this task 
+    repeated int64 blocked_by = 5; // id of the task that block it
+    optional uint64 resposinble = 6; // person responsible for this task
+    optional int64 time_limit = 7; // time limit for task in minutes
+    repeated Task children = 8; // subtasks of this task 
     google.protobuf.StringValue comment = 9; // comment
 }
 
