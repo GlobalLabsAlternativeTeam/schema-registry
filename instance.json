@@ -6,8 +6,6 @@
     "started_at": "date",
     "finished_at": "date",
     "deleted_at": "date",
-    "schema_instance_id": "string",
-    "schema_reference": {
-      }
+    "schema_instance_id": "string"
 }
   

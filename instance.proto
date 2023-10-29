@@ -16,12 +16,6 @@ message Treatment{
 }
 
 
-message SchemaInstance{
-    string instance_id = 1;
-    Schema schema_reference = 5;
-}
-
-
 enum TreatmentStatus {
     INSTANCE_STATUS_UNSPECIFIED = 0;
     INSTANCE_STATUS_RUNNING = 1;
