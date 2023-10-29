@@ -33,7 +33,7 @@ message Task{
 
 enum TaskStatus {
     TASK_STATUS_UNSPECIFIED = 0;
-     = 1;
+    TASK_STATUS_NOT_STARTED = 1;
     TASK_STATUS_IN_PROGRESS = 2;
     TASK_STATUS_BLOCKED = 3;
     TASK_STATUS_DONE = 4;
