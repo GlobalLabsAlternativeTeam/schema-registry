@@ -1,0 +1,27 @@
+syntax = "proto3";
+import "google/protobuf/timestamp.proto";
+
+package Treatment;
+
+
+message PatternInstance{
+    string instance_id = 1;
+    PatternInstanceStatus status = 2;
+    string pattern_id = 3;
+    string author_id = 4;
+    string pattern_name = 5;
+    google.protobuf.Timestamp created_at = 6;
+    google.protobuf.Timestamp updated_at = 7;
+    google.protobuf.Timestamp deleted_at = 8;
+    repeated Task tasks = 9;// tasks
+}
+
+
+enum PatternInstanceStatus {
+    PATTERN_INSTANCE_STATUS_STATUS_UNSPECIFIED = 0;
+    PATTERN_INSTANCE_STATUS_NOT_STARTED = 1;
+    PATTERN_INSTANCE_STATUS_STATUS_RUNNING = 2;
+    PATTERN_INSTANCE_STATUS_STATUS_BLOCKED = 3;
+    PATTERN_INSTANCE_STATUS_STATUS_COMPLETED = 4;
+    PATTERN_INSTANCE_STATUS_STATUS_CANCELLED = 5;
+  }

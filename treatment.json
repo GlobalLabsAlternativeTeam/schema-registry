@@ -1,7 +1,11 @@
 {
-    "treatment_id": "UUID",
-    "doctor_id": 6789,
-    "patient_id": 54321,
-    "status": "STATUS_RUNNING",
-    "schema_instance_id": 98765
-  }
+    "treatmentd_id": "UUID",
+    "doctor_id": 1,
+    "patient_id":1,
+    "status": "ststus",
+    "started_at": "date",
+    "finished_at": "date",
+    "deleted_at": "date",
+    "schema_instance_id": "string"
+}
+  

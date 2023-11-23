@@ -1,7 +1,9 @@
 {
+    "schema_instance_id": "string",
     "schema_id": "123",
     "author_id": "456",
     "schema_name": "Sample Schema",
+    "PatternInstanceStatus": "status",
     "created_at": {
       "seconds": 1634567890,
       "nanos": 123456789
@@ -16,5 +18,4 @@
     },
     "tasks": [
     ]
-  }
-  
+    }

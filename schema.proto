@@ -6,10 +6,10 @@ import "google/protobuf/wrappers.proto";
 package Treatment;
 
 
-message Schema{
-    int64 schema_id = 1;
-    int64 author_id = 2;
-    string schema_name = 3;
+message Pattern{
+    string pattern_id = 1;
+    string author_id = 2;
+    string pattern_name = 3;
     google.protobuf.Timestamp created_at = 4;
     google.protobuf.Timestamp updated_at = 5;
     google.protobuf.Timestamp deleted_at = 6;
