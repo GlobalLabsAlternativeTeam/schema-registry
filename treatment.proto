@@ -3,13 +3,12 @@ import "google/protobuf/timestamp.proto";
 
 package Treatment;
 
-//Treatment
 message Treatment{
     string treatment_id = 1;
     string doctor_id = 2;
     string patient_id = 3;
     TreatmentStatus status = 4;
-    string schema_instace_id = 5;
+    PatternInstance pattern_instance = 5;
     google.protobuf.Timestamp started_at = 6;
     google.protobuf.Timestamp finished_at = 7;
     google.protobuf.Timestamp deleted_at = 8;
